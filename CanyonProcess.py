@@ -14,4 +14,4 @@ import cv2
 picture = cv2.imread(config.picturePath, 0)
 pictureProcessed = cv2.Sobel(picture, cv2.CV_64F, dx=1, dy=0)
 
-cv2.imwrite("1.png", pictureProcessed)
+cv2.imwrite("canyon_process_result.png", pictureProcessed)

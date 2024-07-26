@@ -11,9 +11,9 @@ import numpy as np
 
 
 # Global
-picturePath = r"D:\Users\Zong\Desktop\1.jpg"
-StorePath = r"D:\Users\Zong\Desktop/"
-pixelPictureName = "pixelPicture.png"
+picturePath = r"your picture path"
+StorePath = picturePath
+pixelPictureName = "your picture name"
 
 # Target
 pixelPictureHeight = 64

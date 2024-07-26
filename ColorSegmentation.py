@@ -46,4 +46,4 @@ for center_index in range(0, len(config.colors)):
 result = np.array(result)
 result = result.reshape((result_height_per_center * len(config.colors), result_width, n_channels))
 result=result.astype(np.uint8)
-cv2.imwrite("colorCard.png", result)
+cv2.imwrite("color_card.png", result)
